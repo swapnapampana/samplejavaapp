@@ -17,6 +17,9 @@ public class ExceptionThrower {
         public void doNothing() throws IOException {
                 throw new IOException("TESTIOEXCEPTION"); 
         }
+        public void doNothing() throws IOException {
+                throw new IOException("TESTIOEXCEPTION"); 
+        }
         
         private void doXXX() { 
                 try { 
